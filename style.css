@@ -22,9 +22,9 @@ body{
 }
 
 ul {
-    display: block;
+    align-items: center;
+    display: inline;
     list-style-type: none;
-    
     margin: 0;
     padding: 0;
 }
@@ -88,6 +88,12 @@ a:visited{
 footer{
     text-align: center;
 }
+
+p{
+    padding: 0.05em;
+    margin: 0.05em;
+}
+
 
 
 
