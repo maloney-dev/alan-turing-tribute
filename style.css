@@ -23,18 +23,19 @@ body{
 
 ul {
     align-items: center;
-    display: inline;
+    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 li a {
+    align-items: center;
     display: block;
     border: 0.1px solid;
-    width: 180px;
-    margin: 0;
-    padding: 0.2em;
+    width: 900px;
+    margin: 1em;
+    padding: 0.5em;
     color: black;
 }
 
@@ -89,9 +90,19 @@ footer{
     text-align: center;
 }
 
-.fa-brands-fa-linkedin:visited, .fa-brands-fa-github:visited {
-    color:rgba(0, 0, 0, 0.3)
-}
+.fa-brands-fa-linkedin:visited {
+
+    color:rgba(0, 0, 0, 0.3);
+    height: 0.3em;
+    width: 0.3em;
+
+    }
+.fa-brands-fa-github:visited {
+    color:rgba(0, 0, 0, 0.3);
+    height: 0.3em;
+    width: 0.3em;
+
+    }
 
 p{
     padding: 0.05em;
