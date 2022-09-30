@@ -33,7 +33,7 @@ li a {
     align-items: center;
     display: block;
     border: 0.1px solid;
-    width: 900px;
+    max-width: 100%;
     margin: 1em;
     padding: 0.5em;
     color: black;
