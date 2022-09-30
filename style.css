@@ -89,6 +89,10 @@ footer{
     text-align: center;
 }
 
+.fa-brands-fa-linkedin:visited, .fa-brands-fa-github:visited {
+    color:rgba(0, 0, 0, 0.3)
+}
+
 p{
     padding: 0.05em;
     margin: 0.05em;
